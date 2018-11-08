@@ -5,10 +5,10 @@
 	<title>Using form input for selecting</title>
 </head>
 <body>
-<div>
-
-<input type="file" id="files" name="files[]" multiple />
-<output id="list"></output>
+  <div>
+    <input type="file" id="files" name="files[]" multiple />
+    <output id="list"></output>
+  </div>
   <!-- The most straightforward way to load a file is to use a standard <input type="file"> element. 
       JavaScript returns the list of selected File objects as a FileList. -->
 <script>
@@ -28,7 +28,5 @@
 
   document.getElementById('files').addEventListener('change', handleFileSelect, false);
 </script>
-
-</div>
 </body>
 </html>
